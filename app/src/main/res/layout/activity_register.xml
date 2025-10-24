@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lavender_dark_background"
+    android:padding="32dp"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/registerLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_app_logo_purple"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="30dp"
+        android:contentDescription="@string/app_logo_description" />
+
+    <EditText
+        android:id="@+id/etUsername_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registerLogo"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/register_hint_username"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="#A09DB1"
+        android:backgroundTint="@color/white" />
+
+    <EditText
+        android:id="@+id/etEmail_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etUsername_register"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/register_hint_email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:textColorHint="#A09DB1"
+        android:backgroundTint="@color/white" />
+
+    <EditText
+        android:id="@+id/etPassword_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etEmail_register"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/register_hint_password"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="#A09DB1"
+        android:backgroundTint="@color/white" />
+
+    <EditText
+        android:id="@+id/etConfirmPassword_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etPassword_register"
+        android:layout_marginBottom="24dp"
+        android:hint="@string/register_hint_confirm_password"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="#A09DB1"
+        android:backgroundTint="@color/white" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etConfirmPassword_register"
+        android:text="@string/register_button_register"
+        android:backgroundTint="@color/accent_yellow"
+        android:textColor="@color/darker_purple"
+        app:cornerRadius="16dp"
+        android:paddingVertical="14dp"/>
+
+    <TextView
+        android:id="@+id/tvBackToLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRegister"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="@string/register_text_back_to_login"
+        android:textColor="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackground"
+        android:padding="8dp"/>
+
+</RelativeLayout>

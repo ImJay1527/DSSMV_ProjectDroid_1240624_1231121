@@ -1,3 +1,46 @@
 <resources>
-    <string name="app_name">Guardian</string>
+    <string name="app_name">Guardião da Despensa</string>
+
+    <string name="app_logo_description">Logo da Aplicação Guardião da Despensa</string>
+
+    <string name="login_hint_email">Email ou Username</string>
+    <string name="login_hint_password">Password</string>
+    <string name="login_button_login">Login</string>
+    <string name="login_text_register">Não tens conta? Registar agora</string>
+    <string name="login_error_empty_fields">Por favor, preencha todos os campos</string>
+    <string name="login_error_invalid">Email ou Password inválidos</string>
+
+    <string name="register_hint_username">Username</string>
+    <string name="register_hint_email">Email</string>
+    <string name="register_hint_password">Password</string>
+    <string name="register_hint_confirm_password">Confirmar Password</string>
+    <string name="register_button_register">Registar</string>
+    <string name="register_text_back_to_login">Já tens conta? Fazer Login</string>
+    <string name="register_error_password_mismatch">As passwords não correspondem</string>
+    <string name="register_success">Registo bem-sucedido! Por favor, faça login.</string>
+    <string name="register_toast_implement">Ecrã de Registo (A implementar)</string>
+
+    <string name="expiring_soon_title">A Expirar Brevemente</string>
+    <string name="loading_data">(Carregando...)</string>
+    <string name="view_all">VER TODOS →</string>
+    <string name="quick_actions_title">Ações Rápidas</string>
+    <string name="action_scan">SCAN</string>
+    <string name="action_add">ADICIONAR</string>
+    <string name="action_shopping_list">COMPRAS</string>
+    <string name="inventory_summary_title">Resumo do Inventário</string>
+    <string name="total_items_loading">Total de Itens: (Carregando...)</string>
+    <string name="expired_items_loading">Itens Expirados: (Carregando...)</string>
+    <string name="total_items_label">Total de Itens: %1$d</string> <string name="expired_items_label">Itens Expirados: %1$d</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_inventory">Inventory</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_settings">Settings</string>
+
+    <string name="toast_inventory">Abrir Inventário (A implementar)</string>
+    <string name="toast_settings">Abrir Definições (A implementar)</string>
+    <string name="toast_map">Abrir Mapa (A implementar)</string>
+    <string name="toast_scan">Abrir Scan (A implementar)</string>
+    <string name="toast_add_manual">Abrir Adicionar Manual (A implementar)</string>
+    <string name="toast_shopping_list">Abrir Lista Compras (A implementar)</string>
 </resources>
