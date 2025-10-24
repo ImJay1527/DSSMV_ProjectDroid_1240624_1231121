@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="splash_background">#FF000000</color>
+    <color name="dark_blue_type_1">#2A3C58</color>
+    <color name="lavender_dark_background">#3f2b8b</color>
+    <color name="accent_yellow">#FFEB3B</color>
+    <color name="darker_purple">#311B92</color>
+    <color name="bottom_nav_item_inactive">#A09DB1</color>
 </resources>
